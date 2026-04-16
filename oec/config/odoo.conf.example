@@ -1,0 +1,6 @@
+[options]
+; Ajustar rutas según tu entorno real de oec.sh
+addons_path = /opt/odoo/community/addons,/workspace/OdooAdams/addons
+
+; Espacio futuro para Enterprise:
+; addons_path = /opt/odoo/community/addons,/opt/odoo/enterprise,/workspace/OdooAdams/addons
