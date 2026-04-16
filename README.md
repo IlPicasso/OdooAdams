@@ -3,7 +3,7 @@
 Repositorio base para trabajar con `oec.sh` manteniendo **solo customizaciones** del proyecto.
 
 ## Versión del repositorio
-Ver archivo `VERSION` (actual: `0.2.0`).
+Ver archivo `VERSION` (actual: `0.3.0`).
 
 ## Enfoque actual
 Este repositorio ya **no** incluye el código completo de Odoo Community como fork o submódulo.
@@ -27,3 +27,11 @@ Con tu setup de `oec.sh` ya listo, apunta `addons_path` a:
 2. `oec/custom-addons` de este repositorio.
 
 Referencia de ejemplo: `oec/config/odoo.conf.example`.
+
+## Módulo inicial incluido
+- `oec/custom-addons/hello_world`
+
+Instalación en Odoo (con rutas ya configuradas en `addons_path`):
+1. Actualiza lista de Apps.
+2. Busca `Hello World`.
+3. Instálalo y abre el menú **Hello World > Registros**.
