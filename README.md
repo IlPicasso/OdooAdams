@@ -3,7 +3,7 @@
 Repositorio base para trabajar con `oec.sh` manteniendo **solo customizaciones** del proyecto.
 
 ## Versión del repositorio
-Ver archivo `VERSION` (actual: `0.3.0`).
+Ver archivo `VERSION` (actual: `0.4.0`).
 
 ## Enfoque actual
 Este repositorio ya **no** incluye el código completo de Odoo Community como fork o submódulo.
@@ -11,12 +11,12 @@ Este repositorio ya **no** incluye el código completo de Odoo Community como fo
 La estrategia es:
 - `oec.sh` administra/descarga Odoo Community externamente.
 - Este repo mantiene solo:
-  - módulos custom,
+  - módulos custom (en `addons/`),
   - parches,
   - configuración y scripts de soporte.
 
 ## Estructura
-- `oec/custom-addons/` → módulos propios.
+- `addons/` → módulos propios compatibles con autodetección en OEC.SH.
 - `oec/patches/` → parches opcionales.
 - `oec/config/` → ejemplos de configuración.
 - `oec/enterprise-addons/` → reservado para futuro Enterprise.
@@ -24,12 +24,12 @@ La estrategia es:
 ## Siguiente paso para ti
 Con tu setup de `oec.sh` ya listo, apunta `addons_path` a:
 1. ruta Community gestionada por `oec.sh`.
-2. `oec/custom-addons` de este repositorio.
+2. `addons` de este repositorio.
 
 Referencia de ejemplo: `oec/config/odoo.conf.example`.
 
 ## Módulo inicial incluido
-- `oec/custom-addons/hello_world`
+- `addons/hello_world`
 
 Instalación en Odoo (con rutas ya configuradas en `addons_path`):
 1. Actualiza lista de Apps.

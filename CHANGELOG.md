@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0 - 2026-04-16
+- Se movió el módulo `hello_world` a `addons/hello_world` para alinearlo con la autodetección estándar de OEC.SH.
+- Se actualizaron `README.md`, `oec/README.md` y `oec/config/odoo.conf.example` para usar `addons/` como ruta principal de módulos custom.
+- Se incrementó la versión del repositorio a `0.4.0`.
+
 ## 0.3.0 - 2026-04-16
 - Se creó el módulo `hello_world` para Odoo Community en `oec/custom-addons/hello_world`.
 - El módulo incluye modelo `hello.world`, vistas (lista/formulario), menú y permisos base para usuarios internos.
