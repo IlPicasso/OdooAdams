@@ -1,7 +1,7 @@
 {
     "name": "Hello World",
     "summary": "Módulo base de ejemplo para Odoo Community",
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.0.1",
     "category": "Tools",
     "author": "OdooAdams",
     "license": "LGPL-3",

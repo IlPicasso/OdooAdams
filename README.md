@@ -3,7 +3,7 @@
 Repositorio base para trabajar con `oec.sh` manteniendo **solo customizaciones** del proyecto.
 
 ## Versión del repositorio
-Ver archivo `VERSION` (actual: `0.4.0`).
+Ver archivo `VERSION` (actual: `0.5.0`).
 
 ## Enfoque actual
 Este repositorio ya **no** incluye el código completo de Odoo Community como fork o submódulo.

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0 - 2026-04-16
+- Se corrigió el tipo de vista XML de `tree` a `list` en `hello_world`, compatible con Odoo 18.
+- Se actualizó `view_mode` de la acción a `list,form`.
+- Se incrementó versión del módulo a `18.0.1.0.1` y versión del repositorio a `0.5.0`.
+
 ## 0.4.0 - 2026-04-16
 - Se movió el módulo `hello_world` a `addons/hello_world` para alinearlo con la autodetección estándar de OEC.SH.
 - Se actualizaron `README.md`, `oec/README.md` y `oec/config/odoo.conf.example` para usar `addons/` como ruta principal de módulos custom.
